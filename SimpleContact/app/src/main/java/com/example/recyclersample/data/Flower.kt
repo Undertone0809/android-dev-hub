@@ -14,21 +14,16 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample
+package com.example.recyclersample.data
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import androidx.recyclerview.widget.RecyclerView
+import androidx.annotation.DrawableRes
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        // Retrieves data from datasource
-        val flowerList = Datasource(this).getFlowerList()
-
-        val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
-        recyclerView.adapter = FlowerAdapter(flowerList)
-    }
-}
+data class Flower(
+    val id: Long,
+    val name: String,
+    val phone: String,
+    val address: String,
+    @DrawableRes
+    val image: Int?,
+    val description: String
+)

@@ -15,22 +15,62 @@
 -->
 
 <resources>
-    <string name="app_name">RecyclerView Sample</string>
+    <string name="app_name">通讯录</string>
+    <string name="add_flower">添加联系人</string>
 
-    <!-- Add in flower names  -->
-    <string-array name="flower_array">
-        <item>Lily</item>
-        <item>Poppy</item>
-        <item>Sunflower</item>
-        <item>Freesia</item>
-        <item>Daisy</item>
-        <item>Rose</item>
-        <item>Daffodil</item>
-        <item>Lavender</item>
-        <item>Peony</item>
-        <item>Lilac</item>
-        <item>Dahlia</item>
-        <item>Tulip</item>
-        <item>Dandelion</item>
-    </string-array>
+    <string name="flower1_name">Rose</string>
+    <string name="flower2_name">Jack</string>
+    <string name="flower3_name">Lily</string>
+    <string name="flower4_name">Jasmine</string>
+    <string name="flower5_name">Peony</string>
+    <string name="flower6_name">Daisy</string>
+    <string name="flower7_name">Lilac</string>
+    <string name="flower8_name">Marigold</string>
+    <string name="flower9_name">Poppy</string>
+    <string name="flower10_name">Tony</string>
+    <string name="flower11_name">Dahlia</string>
+    <string name="flower12_name">Tulip</string>
+
+    <string name="flower1_phone">1323121321</string>
+    <string name="flower2_phone">1323121321</string>
+    <string name="flower3_phone">1323121321</string>
+    <string name="flower4_phone">1323121321</string>
+    <string name="flower5_phone">1323121321</string>
+    <string name="flower6_phone">1323121321</string>
+    <string name="flower7_phone">1323121321</string>
+    <string name="flower8_phone">1323121321</string>
+    <string name="flower9_phone">1323121321</string>
+    <string name="flower10_phone">1323121321</string>
+    <string name="flower11_phone">1323121321</string>
+    <string name="flower12_phone">1323121321</string>
+
+    <string name="flower1_description">Rose comes from the Latin word Rosa. There are over 100
+        species of the rose. </string>
+    <string name="flower2_description">Freesias bloom during spring and are native to
+        Africa.</string>
+    <string name="flower3_description">Lilies have the longest in vase lifespan of any cut
+        bloom.</string>
+    <string name="flower4_description">Mature Sunflowers face east and are native too the United
+        States.</string>
+    <string name="flower5_description">Peony plants can live to be 100 years old.</string>
+    <string name="flower6_description">Daisies are cousins with Sunflowers.</string>
+    <string name="flower7_description">Lilacs belong to the olive family.</string>
+    <string name="flower8_description">Marigolds come in orange, reed, maroon and yellow.</string>
+    <string name="flower9_description">Poppies can be over 3 feet tall.</string>
+    <string name="flower10_description">Daffodils are referred to as Lent Lilies in England</string>
+    <string name="flower11_description">Dahlia is named after the Swedish botanist Anders
+        Dahl</string>
+    <string name="flower12_description">There are over 150 species of tulips.</string>
+
+    <string name="flower_string">Contact</string>
+    <string name="flower_finder">Users</string>
+    <string name="flower_description_edit_text">User Description</string>
+    <string name="flower_phone_edit_text">User Phone</string>
+    <string name="flower_address_edit_text">User Address</string>
+    <string name="flower_name_edit_text">User Name</string>
+    <string name="done_button_text">Done</string>
+    <string name="fab_content_description">fab</string>
+    <string name="flower_image_content_description">Image of User</string>
+    <string name="remove_this_flower">Remove this User</string>
+
 </resources>

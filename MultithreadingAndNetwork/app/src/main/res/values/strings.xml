@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MultithreadingAndNetwork</string>
+    <string name="download">Download from network</string>
+    <string name="exit">Exit</string>
+    <string name="download_status_not_started">status: Not Started</string>
+    <string name="download_status_finished">status: Finish</string>
+    <string name="img_description">img description</string>
+
+    <string name="url">URL</string>
+    <!-- https://cdn.pixabay.com/photo/2023/05/08/17/20/waterfall-7979339_960_720.jpg   -->
+    <string name="default_url">https://pic.dmjnb.com/pic/46b489ea02370cd267c0e07639cf9cbd</string>
+
 </resources>

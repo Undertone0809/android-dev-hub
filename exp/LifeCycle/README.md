@@ -1,2 +1,3 @@
 ## LifeCycle
+
 本实验用于验证生命周期，观察mainActivity在每个生命周期的日志打印情况，和跳转到SecondActivity的日志打印情况。

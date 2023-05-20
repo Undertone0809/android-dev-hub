@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GuessingGame</string>
+    <string name="confirm">Confirm</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentUsage</string>
+    <string name="this_is_first_activity">This is First Activity</string>
+    <string name="nav_to_second_activity">Nav to Second Activity</string>
+    <string name="data_from_first_activity">Data from First Activity</string>
+    <string name="flush_data">Flush Data</string>
+    <string name="send_sms">Send SMS</string>
+
+</resources>

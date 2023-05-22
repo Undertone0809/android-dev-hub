@@ -22,8 +22,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import java.io.File
 
-const val TAKE_PHOTO = 1
-const val CHOOSE_PHOTO = 2
+const val TAKE_PHOTO_ACTIVITY = 1
+const val CHOOSE_PHOTO_ACTIVITY = 2
 
 class MainActivity : AppCompatActivity() {
 
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
             //启动相机程序
             val intent = Intent("android.media.action.IMAGE_CAPTURE")
             intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri)
-            startActivityForResult(intent, TAKE_PHOTO)
+            startActivityForResult(intent, TAKE_PHOTO_ACTIVITY)
         }
 
         selectFromAlbumBtn!!.setOnClickListener {
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
     private fun openAlbum() {
         val intent = Intent("android.intent.action.GET_CONTENT")
         intent.type = "image/*"
-        startActivityForResult(intent, CHOOSE_PHOTO)
+        startActivityForResult(intent, CHOOSE_PHOTO_ACTIVITY)
     }
 
     override fun onRequestPermissionsResult(
@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
-            TAKE_PHOTO -> if (resultCode == RESULT_OK) {
+            TAKE_PHOTO_ACTIVITY -> if (resultCode == RESULT_OK) {
                 try {
                     val bm = BitmapFactory.decodeStream(
                         contentResolver.openInputStream(
@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
                     e.printStackTrace()
                 }
             }
-            CHOOSE_PHOTO -> if (resultCode == RESULT_OK) {
+            CHOOSE_PHOTO_ACTIVITY -> if (resultCode == RESULT_OK) {
                 if (Build.VERSION.SDK_INT >= 19) {  //4.4及以上的系统使用这个方法处理图片；
                     handleImageOnKitKat(data)
                 } else {

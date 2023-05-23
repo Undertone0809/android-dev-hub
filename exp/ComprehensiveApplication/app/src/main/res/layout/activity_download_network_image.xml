@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:contentDescription="@string/img_description"
+      android:scaleType="fitCenter"
+      tools:srcCompat="@tools:sample/avatars" />
+
+  <TextView
+      android:id="@+id/downloadStatus"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/download_status_not_started"
+      android:textAlignment="center" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/url" />
+
+    <EditText
+        android:id="@+id/editTextURL"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/default_url" />
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/download"
+      style="?attr/materialButtonOutlinedStyle"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/download" />
+
+  <Button
+      android:id="@+id/exit"
+      style="?attr/materialButtonOutlinedStyle"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/exit" />
+
+</LinearLayout>
+

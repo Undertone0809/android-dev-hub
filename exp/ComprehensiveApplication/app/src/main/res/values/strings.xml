@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ComprehensiveApplication</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="start_second_activity">Start Second Activity</string>
+    <string name="this_is_the_second_activity">This is the second activity</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+
+    <string name="this_is_first_activity">This is First Activity</string>
+    <string name="nav_to_second_activity">Nav to Second Activity</string>
+    <string name="data_from_first_activity">Data from First Activity</string>
+    <string name="flush_data">Flush Data</string>
+    <string name="send_sms">Send SMS</string>
+
+    <string name="download">Download from network</string>
+    <string name="exit">Exit</string>
+    <string name="download_status_not_started">status: Not Started</string>
+    <string name="download_status_finished">status: Finish</string>
+    <string name="img_description">img description</string>
+    <string name="url">URL</string>
+    <!-- https://cdn.pixabay.com/photo/2023/05/08/17/20/waterfall-7979339_960_720.jpg   -->
+    <string name="default_url">https://pic.dmjnb.com/pic/46b489ea02370cd267c0e07639cf9cbd</string>
+
+    <string name="create_db">Create Database</string>
+    <string name="add_data">Add User data</string>
+    <string name="update_data">Update data</string>
+    <string name="delete_data">Delete</string>
+    <string name="save_data">Save data</string>
+    <string name="ok">Confirm</string>
+
+    <string name="take_picture">Take Picture</string>
+    <string name="choose_from_album">Choose From Album</string>
+
+</resources>

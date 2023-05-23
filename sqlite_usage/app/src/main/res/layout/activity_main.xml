@@ -17,7 +17,7 @@
             android:id="@+id/createDBButton"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:text="@string/create_db" />
 
@@ -25,9 +25,17 @@
             android:id="@+id/addDataButton"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:text="@string/add_data" />
+
+        <Button
+            android:id="@+id/flushDataButton"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/flush_data" />
 
     </LinearLayout>
 
@@ -35,21 +43,5 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/updateDataButton"
-        style="?attr/materialButtonOutlinedStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/update_data" />
-
-    <Button
-        android:id="@+id/deleteDataButton"
-        style="?attr/materialButtonOutlinedStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/delete_data" />
 
 </LinearLayout>

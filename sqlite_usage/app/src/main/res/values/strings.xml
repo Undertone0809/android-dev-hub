@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">sqlite_usage</string>
     <string name="create_db">Create Database</string>
-    <string name="add_data">Add data</string>
+    <string name="add_data">Add User data</string>
     <string name="update_data">Update data</string>
-    <string name="delete_data">Delete data</string>
+    <string name="delete_data">Delete</string>
     <string name="save_data">Save data</string>
     <string name="cancel">Cancel</string>
+    <string name="flush_data">Flush data</string>
+    <string name="ok">Confirm</string>
 </resources>

@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical">
 
 
@@ -14,7 +13,6 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/userName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -22,8 +20,10 @@
             android:text="user_name" />
 
         <EditText
+            android:id="@+id/userName"
             android:layout_width="142dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/full_names" />
     </LinearLayout>
 
     <LinearLayout
@@ -33,7 +33,6 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/userAge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -41,6 +40,8 @@
             android:text="user_age" />
 
         <EditText
+            android:id="@+id/userAge"
+            android:inputType="number"
             android:layout_width="130dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -52,7 +53,6 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/userCountry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -60,8 +60,10 @@
             android:text="user_country" />
 
         <EditText
+            android:id="@+id/userCountry"
             android:layout_width="130dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/cities" />
     </LinearLayout>
 
     <LinearLayout
@@ -71,7 +73,6 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/userHobby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -79,6 +80,7 @@
             android:text="user_hobby" />
 
         <EditText
+            android:id="@+id/userHobby"
             android:layout_width="131dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -105,5 +107,9 @@
             android:text="@string/cancel" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
